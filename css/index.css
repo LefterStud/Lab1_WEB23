@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: Courier New;
+    font-weight: 700;
+}
+.upper{
+    width: (100%-25px);
+    height: 140px;
+    padding-top: 10px;
+    padding-left: 25px;
+    background-color: #D3D3D3;
+}
+.searchfield{
+    width: 100%;
+    height: 100px;
+    background-color: 	#C0C0C0;
+    display: flex;
+    justify-content: center;
+}
+.pokesearch{
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+    height: 50px;
+    border-radius: 7px;
+}
+.infoshield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pokemon_banner p{
+    width: 150px;
+}
+.pokemon_banner{
+    width: (100%-50px);
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 	#D3D3D3;
+}
+.pokemon_banner:hover{
+    background-color: 	#808080;
+}
+.NF{
+    margin: auto;
+    margin-top: 25px;
+}
+.delete_Button{
+  width: 75px;
+  height: 25px;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
